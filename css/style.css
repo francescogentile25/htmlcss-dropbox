@@ -70,13 +70,17 @@ header{
     margin: 0 auto;
 }
 
-/* .container-s{
-    background-color: tomato;
-    min-height: 500px;
-    max-width: 400px;
+.container-s{
+    padding-top: 135px;
+    background-color: blueviolet;
+    min-height: 1200px; /* REGOAL DA TOGLIERE */
+    max-width: 1042px;
     margin: 0 auto;
-} */
+}
 
+/*****************
+    JUMBO SECTION
+******************/
 .title{
     font-weight: 800;
     font-size: 68px;
@@ -112,4 +116,17 @@ header{
 .arrow{
     font-size: 50px;
     align-self: flex-start;
+}
+
+/*****************
+    PLANE SECTION
+******************/
+.plane-title{
+    font-size: 32px;
+    padding: 35px 0;
+}
+
+.plane-radiobutton>span{
+    margin-right: 20px;
+    font-size: 18px;
 }
