@@ -25,6 +25,9 @@ a{
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+}
 /* li{
     padding: 10px 35px;
     
@@ -54,4 +57,50 @@ header{
 .right-button li:last-of-type{
     background-color: #0061ff;
     color: white;
+}
+
+.container-l{
+    background-color: #b4d0e7;
+    padding-top: 83px;
+    min-height: 900px; /* REGOLA DI DEBUG DA ELIMINARE */
+}
+
+
+.container-m{
+    background-color: aqua;
+    min-height: 500px;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+/* .container-s{
+    background-color: tomato;
+    min-height: 500px;
+    max-width: 400px;
+    margin: 0 auto;
+} */
+
+.title{
+    font-weight: 800;
+    font-size: 68px;
+}
+
+.jumbo{
+    display: flex;
+
+}
+.jumbo-description{
+    max-width: 370px;
+    line-height: 1.5;
+}
+.jumbo-description>p{
+    padding: 17px 0;
+}
+.jumbo-image{
+    flex-grow: 2;
+}
+.jumbo-button{
+    padding: 17px 0;
+    color: white;
+    background-color: #0061ff;
 }
