@@ -31,7 +31,7 @@ img{
 }
 
 /***************
-    HEADER SECTION
+HEADER SECTION
 *****************/
 
 header{
@@ -75,7 +75,7 @@ header{
 }
 
 /*****************
-    JUMBO SECTION
+JUMBO SECTION
 ******************/
 .title-page{
     font-weight: 800;
@@ -118,7 +118,7 @@ header{
 }
 
 /*****************
-    PLANE SECTION
+PLANE SECTION
 ******************/
 .plane-title{
     font-size: 32px;
@@ -155,9 +155,9 @@ header{
 }
 
 
-/**************
+/*********
 CARD ICON
-***************/
+**********/
 .tile-card-head::before{
     content: "\f007";
     font-family: 'Font Awesome\ 5 Free';
@@ -224,7 +224,7 @@ CARD ICON
 .card-button p{
     margin: 10px 0;
 }
-.card-button p>a{
+.card-button p>a, .container-s.logo>a {
     color: #0061ff;
     text-decoration: underline;
 }
@@ -275,7 +275,10 @@ CARD ICON
 }
 
 
-/* PARTNER SECTION */
+/***************
+PARTNER SECTION 
+****************/
+
 .partner{
     display: flex;
 }
@@ -301,6 +304,9 @@ CARD ICON
     padding:10px 30px;
 }
 
+/********************
+DROPBOX BUSINESS CARD
+*********************/
 .business-card-table{
     min-height: 400px;
     display: flex;
@@ -316,4 +322,39 @@ CARD ICON
 }
 .buisness-card-container{
     max-width: 315px;
+}
+
+/********************
+LOGO PARTNER SECTION 
+*********************/
+.container-logo{
+    width: 100%;
+    display: flex;
+}
+.logo-right, .logo-center, .logo-left{
+    width: calc(100% / 3);
+    aspect-ratio: 1;
+    background-color: olivedrab;
+    border: 1px solid black;
+    aspect-ratio: 1;
+
+}
+
+
+.logo-left, .logo-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    border: 1px solid #0061ff;
+    background-color: #5B5B5B;
+    aspect-ratio: 1;
+}
+
+.logo-card>img{
+    max-width: 182px;
 }
