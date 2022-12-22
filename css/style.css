@@ -23,6 +23,7 @@ ul{
 a{
     color: currentColor;
     text-decoration: none;
+    display: inline-block;
 }
 
 img{
@@ -214,6 +215,7 @@ CARD ICON
     gap: 10px;
 }
 .card-button>a{
+    width: 100%;
     text-align: center;
     padding: 11px;
     color: white;
@@ -271,6 +273,9 @@ CARD ICON
     max-width: 70%;
     padding-top: 40px;
 }
+
+
+/* PARTNER SECTION */
 .partner{
     display: flex;
 }
@@ -278,7 +283,17 @@ CARD ICON
 .image-partner{
     width: 60%;
 }
+
+
 .text-partner{
     padding: 54px;
     width: 40%;
+}
+.text-partner>a{
+    border: 1px solid #5B5B5B;
+    padding:15px
+}
+
+.text-partner>p{
+    padding: 23px 0;
 }
