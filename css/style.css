@@ -271,3 +271,14 @@ CARD ICON
     max-width: 70%;
     padding-top: 40px;
 }
+.partner{
+    display: flex;
+}
+
+.image-partner{
+    width: 60%;
+}
+.text-partner{
+    padding: 54px;
+    width: 40%;
+}
