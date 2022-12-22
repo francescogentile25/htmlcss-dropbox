@@ -72,7 +72,6 @@ header{
 
 .container-s{
     padding-top: 135px;
-    background-color: blueviolet;
     min-height: 1200px; /* REGOAL DA TOGLIERE */
     max-width: 1042px;
     margin: 0 auto;
@@ -103,7 +102,11 @@ header{
     
 }
 .jumbo-image{
+    position: relative;
     flex-grow: 2;
+}
+.jumbo-image>img{
+    position: absolute;
 }
 .jumbo-button{
     width: fit-content;
@@ -129,4 +132,72 @@ header{
 .plane-radiobutton>span{
     margin-right: 20px;
     font-size: 18px;
+}
+
+
+.card{
+    min-height: 700px;
+    border: 1px solid #DCDCDE;
+    width: calc(100% / 3);
+
+
+}
+
+.card-container{
+    padding: 0 15px;
+}
+
+.card-head{
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+}
+.card-box{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+
+.card-head{
+    border-bottom: 1px solid #DCDCDE ;
+    padding: 20px;
+}
+
+
+/**************
+CARD ICON
+***************/
+.tile-card-head::before{
+    content: "\f007";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+}
+
+.card-icon>.user::before{
+    content: "\f007";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+}
+
+.card-icon>.storage::before{
+    content: "\f07b";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+}
+
+.card-icon>.share::before{
+    content: "\f1e0";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+}
+.card-info ul li::before{
+    content: "\f00c";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    color: blue;
+}
+
+.card-profile> .title{
+    font-size: 24px;
 }
