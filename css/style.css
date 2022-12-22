@@ -297,3 +297,24 @@ CARD ICON
 .text-partner>p{
     padding: 23px 0;
 }
+.business-title{
+    background-color: #0061ff;
+    padding:10px 30px;
+}
+
+.business-card-container{
+    min-height: 400px;
+    background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+    line-gap-override: inherit;
+}
+
+.business-card{
+    padding:50px 50px 50px 0;
+    width: calc(100% / 3);
+    background-color: pink;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+}
