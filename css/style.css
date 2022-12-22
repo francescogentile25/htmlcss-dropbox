@@ -69,7 +69,6 @@ header{
 
 .container-s{
     padding-top: 135px;
-    min-height: 1200px; /* REGOAL DA TOGLIERE */
     max-width: 1042px;
     margin: 0 auto;
 }
@@ -77,7 +76,7 @@ header{
 /*****************
     JUMBO SECTION
 ******************/
-.title{
+.title-page{
     font-weight: 800;
     font-size: 68px;
 }
@@ -132,19 +131,18 @@ header{
 
 
 
-.card-box{
+.card-box-top{
     display: flex;
-    margin-top: 50px;
+    padding: 50px 0;
     gap: 50px;
 }
 .card{
-    min-height: 700px;
-    border: 1px solid #DCDCDE;
     width: calc(100% / 3);
+    border: 1px solid #DCDCDE;
 }
 
 .card-container{
-    padding: 0 26px;
+    padding: 10px 26px;
 }
 
 .card-head{
@@ -215,23 +213,21 @@ CARD ICON
     flex-grow: 10px;
     gap: 10px;
 }
-.card-buttom>a{
+.card-button>a{
     text-align: center;
-    flex-grow: 1;
     padding: 11px;
     color: white;
     background-color: #0061ff;
 }
-.card-buttom p{
+.card-button p{
     margin: 10px 0;
 }
-.card-buttom p>a{
+.card-button p>a{
     color: #0061ff;
     text-decoration: underline;
 }
-.card-buttom{
-    display: flex;
-    flex-wrap: wrap;
+.card-button{
+    min-height: 100px;
     margin: 50px 0;
 }
 .card-info>p{
@@ -242,4 +238,36 @@ CARD ICON
 
 .card-info ul li {
     padding: 13px 0;
+}
+
+.card-box-bottom{
+    width: 100%;
+}
+.card-bottom{
+    border: 1px solid #DCDCDE;
+}
+
+.title-bottom{
+    font-size: 24px;
+    padding: 20px 0;
+}
+.card-bottomn-left>a{
+    font-weight: bold;
+}
+.card-main-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.card-bottom-right>a{
+    padding: 20px;
+    background-color: #0061ff;
+    color: white;
+}
+.card-bottom-right{
+    display: flex;
+    align-items: center;
+}
+.card-bottom-descriprion{
+    max-width: 70%;
+    padding-top: 40px;
 }
