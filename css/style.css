@@ -30,6 +30,13 @@ img{
     width: 100%;
 }
 
+q{
+    display: inline-block;
+}
+
+h2{
+    font-size: 48px;
+}
 /***************
 HEADER SECTION
 *****************/
@@ -59,7 +66,7 @@ header{
 
 .container-l{
     background-color: #b4d0e7;
-    padding-top: 83px;
+    /* padding-top: 83px; */
 }
 
 
@@ -69,7 +76,7 @@ header{
 }
 
 .container-s{
-    padding-top: 135px;
+    /* padding-top: 135px; */
     max-width: 1042px;
     margin: 0 auto;
 }
@@ -78,6 +85,7 @@ header{
 JUMBO SECTION
 ******************/
 .title-page{
+    padding-top: 86px;
     font-weight: 800;
     font-size: 68px;
 }
@@ -121,8 +129,7 @@ JUMBO SECTION
 PLANE SECTION
 ******************/
 .plane-title{
-    font-size: 32px;
-    padding: 35px 0;
+    padding: 197px 0 72px 0;
 }
 
 .plane-radiobutton>span{
@@ -281,6 +288,7 @@ PARTNER SECTION
 
 .partner{
     display: flex;
+    padding: 154px 0;
 }
 
 .image-partner{
@@ -331,11 +339,13 @@ LOGO PARTNER SECTION
     width: 100%;
     display: flex;
 }
+.logo{
+    padding: 264px 0;
+}
 .logo-right, .logo-center, .logo-left{
     width: calc(100% / 3);
     aspect-ratio: 1;
-    background-color: olivedrab;
-    border: 1px solid black;
+
     aspect-ratio: 1;
 
 }
@@ -350,11 +360,105 @@ LOGO PARTNER SECTION
     justify-content: center;
     align-items: center;
     width:50%;
-    border: 1px solid #0061ff;
-    background-color: #5B5B5B;
     aspect-ratio: 1;
 }
 
 .logo-card>img{
     max-width: 182px;
+    filter: invert(100);
+}
+
+/* BRAND CARD COLOR  */
+
+.green{
+    background-color:#A2D39B ;
+}
+.purple{
+    background-color: #6F213F;
+}
+.heavenly{
+    background-color: #219DCE;
+}
+.orange{
+    background-color: #FF1C1C;
+}
+.red{
+    background-color: #D5001F;
+}
+
+.white{
+    background-color: #B4D0E7;
+}
+
+.blue{
+    background-color:#0D2481;
+}
+
+.yellow{
+    background-color: #FFD830;
+}
+
+.logo-center{
+    padding: 50px;
+}
+.logo-center img{
+    filter: invert(0);
+    max-width: 300px;
+}
+.logo-center blockquote{
+    padding: 96px 0 56px 0;
+    max-width: 550px;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text{
+    padding:  138px 0;
+    max-width: 525px;
+    font-size: 30px;
+    color: #6F213F;
+
+}
+.logo-botton a{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    
+}
+.logo-botton{
+    flex-basis: 300px;
+}
+
+/**********
+ASK SECTION
+***********/
+.ask{
+    padding: 164px 0;
+}
+.ask-section h2{
+    padding-bottom: 55px;
+}
+
+.ask-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #B1B1B1;
+}
+
+.ask-text{
+    font-weight: 700;
+    font-size: 18px;
+    flex-basis: 70%;
+    padding: 42px 0;
+}
+.ask-button a {
+    padding: 37px;
+}
+.ask-card:nth-child(4){
+    border-bottom: 1px solid#B1B1B1;
 }
