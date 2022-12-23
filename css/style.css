@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /***************
-    RESET RULE
+GENERIC RULE
 ****************/
 *{
     box-sizing: border-box;
@@ -66,7 +66,6 @@ header{
 
 .container-l{
     background-color: #b4d0e7;
-    /* padding-top: 83px; */
 }
 
 
@@ -76,7 +75,6 @@ header{
 }
 
 .container-s{
-    /* padding-top: 135px; */
     max-width: 1042px;
     margin: 0 auto;
 }
@@ -236,7 +234,6 @@ CARD ICON
     text-decoration: underline;
 }
 .card-button{
-    min-height: 100px;
     margin: 50px 0;
 }
 .card-info>p{
@@ -309,14 +306,13 @@ PARTNER SECTION
     padding: 23px 0;
 }
 .business-title{
-    padding:10px 30px;
+    padding:10px 0p;
 }
 
 /********************
 DROPBOX BUSINESS CARD
 *********************/
 .business-card-table{
-    min-height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -344,10 +340,6 @@ LOGO PARTNER SECTION
 }
 .logo-right, .logo-center, .logo-left{
     width: calc(100% / 3);
-    aspect-ratio: 1;
-
-    aspect-ratio: 1;
-
 }
 
 
@@ -359,13 +351,15 @@ LOGO PARTNER SECTION
     display: flex;
     justify-content: center;
     align-items: center;
-    width:50%;
+    flex-basis: 50%;
     aspect-ratio: 1;
+
 }
 
 .logo-card>img{
     max-width: 182px;
     filter: invert(100);
+    
 }
 
 /* BRAND CARD COLOR  */
@@ -462,3 +456,54 @@ ASK SECTION
 .ask-card:nth-child(4){
     border-bottom: 1px solid#B1B1B1;
 }
+
+
+/*****
+FOOTER
+******/
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 20%;
+    padding: 112px 0;
+}
+
+.col p{
+    padding: 30px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.col a {
+    padding: 12px 0;
+    width: 80%;
+}
+
+.language{
+    padding: 54px 0;
+    border-top: 1px solid#9C9B99;
+    width: fit-content;
+    display: flex;
+    color: #9C9B99;
+}
+
+.language p{
+    padding:0 5px;
+}
+
+
+/********
+ANIMATION 
+*********/
+/* 
+@border-anim{
+
+} */
