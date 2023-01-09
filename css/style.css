@@ -105,11 +105,10 @@ JUMBO SECTION
     
 }
 .jumbo-image{
-    position: relative;
     flex-grow: 1;
 }
 .jumbo-image>img{
-    position: absolute;
+    margin-bottom: -130px;
 }
 .jumbo.button{
     width: fit-content;
@@ -401,7 +400,6 @@ LOGO PARTNER SECTION
 }
 .logo-center blockquote{
     padding: 96px 0 56px 0;
-    max-width: 550px;
 }
 
 .logo-footer{
@@ -411,7 +409,6 @@ LOGO PARTNER SECTION
 }
 .logo-text{
     padding:  138px 0;
-    max-width: 525px;
     font-size: 30px;
     color: #6F213F;
 
